@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: simple-frontend
-        image: <your-ecr-url>/simple-frontend:latest
+        image: 066380524960.dkr.ecr.eu-north-1.amazonaws.com/simple-frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
